@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/index.css" />
+  <title>MVS Assembly By Bill Quall</title>
+</head>
+
+<body>
+
+  <div class="sidenav" id="divSideNav">
+  </div>
+
+  <div class="main">
+    <div class="topnav" id="topnav">
+      <a href="#" id="Chapter01">Chapter 1</a>
+      <a href="#" id="Chapter02">Chapter 2</a>
+    </div>
+    <div class="best_style">
+      
+    </div>
+    <div class="grid-container">
+      <div class="grid-item">
+        <h3>Jcl File</h3>
+        <pre class="styled" id="ta_jcl"></pre>
+      </div>
+      <div class="grid-item-mid">
+        <div class="flex_controls">
+          <form class="form-inline" id="formJCL">
+            <button class="btn" id="btnSubmitJcl">Submit Jcl</button>
+            <input type="hidden" id="Chapter" name="Chapter" />
+            <input type="hidden" id="JclFile" name="JclFile" />
+          </form>
+        </div>
+        <div class="flex_controls">
+          <table>
+            <tr>
+              <td>
+                <span id="spnJCLFile" class="message_spans"></span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span id="spnJobMessage" class="message_spans"></span>
+            </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="grid-item">
+        <h3>Print Queue Output</h3>
+        <pre class="my-pre" id="pre_printtext">
+    </pre>
+      </div>
+    </div>
+
+    <!-- 
+    <div class="thecontent" id="chapter1">
+      <div class="grid-container">
+        <div class="grid-item">
+          <textarea class="styled" id="ta_chapter1"></textarea>
+        </div>
+        <div class="grid-item">
+          <pre class="my-pre" id="pre_chapter1">
+      </pre>
+        </div>
+      </div>
+    </div>
+    <div class="thecontent" id="chapter2">
+      <div class="grid-container">
+        <div class="grid-item">
+          <textarea class="styled" id="ta_chapter1"></textarea>
+        </div>
+        <div class="grid-item">
+          <pre class="my-pre" id="pre_chapter2">
+      </pre>
+        </div>
+      </div>
+    </div>
+ -->
+
+  </div>
+
+  <script src="js/index.js">
+  </script>
+
+</body>
+
+</html>
