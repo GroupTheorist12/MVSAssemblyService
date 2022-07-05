@@ -70,7 +70,7 @@ class Index {
         e.preventDefault();
         document.getElementById("pre_printtext").innerText = "";
         document.getElementById("spnJobMessage").innerText = "";
-        document.getElementById("spnJobMessage").innerText = "Job Submiited please wait";
+        document.getElementById("spnJobMessage").innerText = "Job Submitted please wait";
         let state = {
             JclFile: document.getElementById('JclFile').value,
             Chapter: document.getElementById('Chapter').value
